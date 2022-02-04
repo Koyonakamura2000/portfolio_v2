@@ -1,0 +1,18 @@
+main {
+    width: 70%;
+    margin: auto;
+}
+
+.intro {
+    font-size: 1.2rem;
+}
+
+.intro big {
+    font-family: Itim;
+    font-size: 2rem;
+}
+
+.image-with-caption {
+    max-width: 40%;
+}
+
