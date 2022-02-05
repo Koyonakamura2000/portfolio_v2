@@ -4,6 +4,7 @@ import NavBar from './pages/NavBar.js';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Footer from './Footer.js';
+import ModernCommerceLandscape from './pages/ModernCommerceLandscape';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
           <Route path='/' element={<NavBar />}>
             <Route index element={<Home />}></Route>
             <Route path='about' element={<About />}></Route>
+            <Route path='projects/'>
+              <Route path='moderncommercelandscape' element={<ModernCommerceLandscape />}></Route>
+            </Route>
           </Route>
         </Routes>
       </BrowserRouter>
