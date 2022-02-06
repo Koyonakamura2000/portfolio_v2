@@ -27,9 +27,17 @@ main {
 }
 
 .cards-container {
-    background-color: #EDEDED;
-    padding: 1rem;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: .5rem;
+}
+
+.cards-container hr {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    height: .1rem;
+    background-color: #CDCDCD;
 }

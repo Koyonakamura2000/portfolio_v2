@@ -4,7 +4,6 @@ import './Card.css';
 
 function Card(props) {
     let img = props.images[0];
-    console.log(props.mobile);
     if(props.mobile) {
         img = props.images[1];
     }

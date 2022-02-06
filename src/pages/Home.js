@@ -5,6 +5,10 @@ import mclMockup from '../assets/images/home/commercetools_mockup.png';
 import mclMockupWide from '../assets/images/home/commercetools_mockup_wide.jpg';
 import reflectionMockup from '../assets/images/home/reflection_mockup.png';
 import reflectionMockupWide from '../assets/images/home/reflection_mockup_wide.jpg';
+import watchfulMockup from '../assets/images/home/318_mockup.png';
+import watchfulMockupWide from '../assets/images/home/318_mockup_wide.jpg';
+import symbiosisMockup from '../assets/images/home/symbiosis_mockup.png';
+import symbiosisMockupWide from '../assets/images/home/symbiosis_mockup_wide.jpg';
 
 function Home() {
   console.log(window.innerWidth);
@@ -25,14 +29,23 @@ function Home() {
           <p className='image-caption'>When I’m not at my desk, you can find me hiking or playing games with my friends!</p>
         </div>
       </article>
-      <h1 className='home-h1'>My Work</h1>
       <div className='cards-container'>
         <Card images={[mclMockup, mclMockupWide]} mobile={isMobile} name='Modern Commerce Landscape' 
         description='A website that helps businesses navigate the modern e-commerce landscape and find services that suit their business needs.'
         tools={['Figma', 'HTML/CSS', 'JavaScript']} roles={['Product Design', 'Web Development']} path='/projects/moderncommercelandscape'></Card>
+        <hr />
         <Card images={[reflectionMockup, reflectionMockupWide]} mobile={isMobile} name='Designing for Night-Time Reflection' 
         description='Published research paper on how to support people reflecting at night.' 
         tools={['Miro', 'Google Forms']} roles={['User Research']} path='/projects/nightreflection'></Card>
+        <hr />
+        <Card images={[symbiosisMockup, symbiosisMockupWide]} mobile={isMobile} name='Symbiosis' 
+        description='Using gamification to inspire younger adults to interact with and appreciate their local environment.' 
+        tools={['Figma', 'Miro']} roles={['User Research', 'UX Design', 'UI Design']} path='/projects/symbiosis'></Card>
+        <hr />
+        <Card images={[watchfulMockup, watchfulMockupWide]} mobile={isMobile} name='Watchful Walking' 
+        description='Helping University of Washington students living in off-campus housing navigate to and from campus safely.' 
+        tools={['Figma']} roles={['User Research', 'UX Design']} path='/projects/watchfulwalking'></Card>
+        <hr />
       </div>
     </main>
   );
