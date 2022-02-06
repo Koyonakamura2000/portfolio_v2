@@ -17,7 +17,9 @@ function Home() {
         </div>
       </article>
       <h1 className='home-h1'>My Work</h1>
-      <div className='card-container'>
+      <div className='cards-container'>
+        <Card image={mclMockup} name='moderncommercelandscape.com' description='A website that helps businesses navigate the modern e-commerce landscape and find services that suit their business needs.'
+        tools={['Figma', 'HTML/CSS', 'JavaScript']} roles={['Product Design', 'Web Development']} path='/projects/moderncommercelandscape'></Card>
         <Card image={mclMockup} name='moderncommercelandscape.com' description='A website that helps businesses navigate the modern e-commerce landscape and find services that suit their business needs.'
         tools={['Figma', 'HTML/CSS', 'JavaScript']} roles={['Product Design', 'Web Development']} path='/projects/moderncommercelandscape'></Card>
       </div>

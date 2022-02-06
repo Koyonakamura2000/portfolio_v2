@@ -1,4 +1,5 @@
 import uuid from 'react-uuid';
+import './Tags.css';
 
 // using react-uuid to generate unique key for each tag, rather than index 
 function Tags(props) {

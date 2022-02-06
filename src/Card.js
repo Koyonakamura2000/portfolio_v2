@@ -1,8 +1,8 @@
 import Tags from './Tags.js';
 import { Link } from 'react-router-dom';
+import './Card.css';
 
 function Card(props) {
-    console.log(props.tools);
     return (
         <div className='card-container'>
             <img src={props.image} alt={props.name}/>
@@ -12,7 +12,7 @@ function Card(props) {
                 <div className='info-align-bottom'>
                     <Tags type='Tools' tags={props.tools}></Tags>
                     <Tags type='Role(s)' tags={props.roles}></Tags>
-                    <Link to={props.path}>View</Link>
+                    <Link className='button' to={props.path}>View</Link>
                 </div>
             </div>
         </div>

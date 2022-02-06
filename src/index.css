@@ -22,6 +22,19 @@ html {
   text-align: center;
 }
 
+.button {
+  text-decoration: none;
+  background-color: #46DEFF;
+  width: fit-content;
+  padding: .3rem 2rem;
+  color: white;
+  transition: background-color .3s;
+}
+
+.button:hover {
+  background-color: #178BA5;
+}
+
 @media only screen and (min-width: 480px) {
   html {
     font-size: 14px;

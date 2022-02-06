@@ -2,7 +2,6 @@ import './Footer.css';
 import linkedinIcon from './assets/icons/linkedin-square.svg'
 
 function Footer(props) {
-    console.log(props.lastEdit);
     return(
         <footer>
             <p>

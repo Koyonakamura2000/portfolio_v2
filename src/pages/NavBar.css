@@ -1,10 +1,16 @@
 .nav-bar {
-    width: 70%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .nav-bar {
+        width: 70%;
+    }    
 }
 
 .nav-links {

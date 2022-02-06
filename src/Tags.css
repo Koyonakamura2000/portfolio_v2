@@ -1,0 +1,29 @@
+.tags-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: baseline;
+    margin-top: .5rem;
+}
+
+.tag-name {
+    text-transform: uppercase;
+    color: #7C7C7C;
+    margin: 0;
+    font-size: .8rem;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3rem 1rem;
+}
+
+
+.tag {
+    background-color: #D1ECFF;
+    font-weight: lighter;
+    font-size: .8rem;
+    padding: .2rem .5rem .2rem .5rem;
+    border-radius: .2rem;
+    margin: 0;
+}
