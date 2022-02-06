@@ -28,7 +28,7 @@ html {
   width: fit-content;
   padding: .3rem 2rem;
   color: white;
-  transition: background-color .3s;
+  transition: background-color .1s;
 }
 
 .button:hover {

@@ -3,9 +3,14 @@ import { Link } from 'react-router-dom';
 import './Card.css';
 
 function Card(props) {
+    let img = props.images[0];
+    console.log(props.mobile);
+    if(props.mobile) {
+        img = props.images[1];
+    }
     return (
         <div className='card-container'>
-            <img src={props.image} alt={props.name}/>
+            <img src={img} alt={props.name}/>
             <div className='info-container'>
                 <h1>{props.name}</h1>
                 <p>{props.description}</p>

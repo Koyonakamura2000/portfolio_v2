@@ -3,9 +3,17 @@ main {
     margin: auto;
 }
 
+.image-with-caption {
+    width: 80%;
+}
+
 @media only screen and (min-width: 1024px) {
     main {
         width: 70%;
+    }
+
+    .image-with-caption {
+        width: 30%;
     }
 }
 
@@ -16,10 +24,6 @@ main {
 .intro big {
     font-family: Itim;
     font-size: 2rem;
-}
-
-.image-with-caption {
-    max-width: 40%;
 }
 
 .cards-container {

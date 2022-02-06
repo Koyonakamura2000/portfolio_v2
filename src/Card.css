@@ -2,19 +2,35 @@
     display: flex;
     background-color: white;
     padding: .5rem;
-    border-radius: 1rem;
+    flex-direction: column;
 }
 
 .card-container img {
-    width: 30%;
-    border-radius: 1rem;
+    width: 100%;
 }
 
 .info-container {
-    margin-left: 1rem;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .card-container {
+        align-items: flex-start;
+        flex-direction: row;
+    }
+
+    .card-container img {
+        width: 30%;
+    }
+
+    .info-container {
+        margin-left: 1rem;
+        display: flex;
+        align-self: stretch;
+    }
 }
 
 .info-container h1 {

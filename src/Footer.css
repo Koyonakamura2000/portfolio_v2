@@ -12,6 +12,7 @@ footer img {
 }
 
 footer p {
+    font-size: .8rem;
     font-weight: lighter;
     padding-top: .1rem;
 }
