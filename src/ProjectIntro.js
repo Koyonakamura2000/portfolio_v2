@@ -14,7 +14,6 @@ function ProjectIntro(props) {
                 {props.link && <a className='button' href={props.link} target='_blank' rel='noreferrer'>Visit website</a>} 
             </div>
         </>
-        
     );
 }
 

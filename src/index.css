@@ -17,6 +17,7 @@ html {
 }
 
 .image-caption {
+  margin-top: .5rem;
   font-style: italic;
   font-size: .9rem;
   text-align: center;
