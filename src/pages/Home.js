@@ -11,7 +11,6 @@ import symbiosisMockup from '../assets/images/home/symbiosis_mockup.png';
 import symbiosisMockupWide from '../assets/images/home/symbiosis_mockup_wide.jpg';
 
 function Home() {
-  console.log(window.innerWidth);
   let isMobile = true;
   if(window.innerWidth >= 1024) {
     isMobile = false;

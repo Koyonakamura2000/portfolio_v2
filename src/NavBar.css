@@ -24,27 +24,25 @@
 
 .nav-links a {
     text-decoration: none;
-}
-
-.nav-selected {
-    color: black;
+    font-size: .8rem;
     font-weight: bold;
 }
 
-.nav-unselected {
-    color: #C4c4c4;
+.nav-selected {
+    color: #e91e63;
+}
+
+.nav-unselected, .nav-resume-link {
+    color: black;
+    transition: color .3s;
 }
 
 .nav-unselected:hover {
-    color: black;
-}
-
-.nav-resume-link {
-    color: #C4c4c4;
+    color: #e91e63;
 }
 
 .nav-resume-link:hover {
-    color: black;
+    color: #e91e63;
     text-decoration: underline;
 }
 

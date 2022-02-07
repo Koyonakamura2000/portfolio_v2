@@ -24,15 +24,10 @@ html {
 
 .button {
   text-decoration: none;
-  background-color: #46DEFF;
+  background-color: #e91e63;
   width: fit-content;
   padding: .3rem 2rem;
   color: white;
-  transition: background-color .1s;
-}
-
-.button:hover {
-  background-color: #178BA5;
 }
 
 @media only screen and (min-width: 480px) {
@@ -61,10 +56,5 @@ html {
 @media only screen and (min-width: 1440px) {
   html {
     font-size: 22px;
-  }
-
-  .column-with-image {
-    flex-direction: row;
-    justify-content: space-between;
   }
 }

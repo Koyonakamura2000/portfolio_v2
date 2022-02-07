@@ -1,0 +1,36 @@
+.project-intro-image {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.project-intro {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .project-intro-image {
+        width: 70%;
+    }
+
+    .project-intro {
+        width: 50%;
+    }
+}
+
+.project-intro h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.project-intro p {
+    margin: 1rem 0 1rem 0;
+}
+
+.project-intro a {
+    margin-top: 1rem;
+}
