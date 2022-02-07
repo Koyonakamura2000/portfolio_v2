@@ -23,6 +23,13 @@ html {
   text-align: center;
 }
 
+.image-caption-mini {
+  margin-top: .5rem;
+  font-style: italic;
+  font-size: .7rem;
+  text-align: center;
+}
+
 .button {
   text-decoration: none;
   background-color: #e91e63;
