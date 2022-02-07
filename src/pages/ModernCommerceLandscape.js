@@ -13,6 +13,7 @@ import gridCategory from '../assets/images/mcl/grid/categoryview.jpg';
 import gridTabs from '../assets/images/mcl/grid/tabs.jpg';
 import gridSave from '../assets/images/mcl/grid/savelinks.jpg';
 import gridContact from '../assets/images/mcl/grid/contact.jpg';
+import implementation from '../assets/images/mcl/implementation.png';
 
 function ModernCommerceLandscape() {
     window.scrollTo(0, 0);
@@ -40,6 +41,13 @@ function ModernCommerceLandscape() {
             {'image': gridTabs, 'caption': 'Emphasis with the color disparity and underline highlights the selected tab further. The tab also highlights when hovered over.'},
             {'image': gridSave, 'caption': 'The final screen with summaries for the vendors selected can be shared via saving to a PDF or generating a shareable link.'}, 
             {'image': gridContact, 'caption': 'By making the sharing of contact information optional, I allow all visitors to enjoy the full features while ensuring that those who share are willingly looking for further contact.'}]}></ProjectGrid>
+            <ProjectColumn heading='Implementation' text='I implemented the website in plain HTML/CSS/JavaScript and deployed to Google App Engine. Separating data structures in data.js facilitates developer changes, which is essential for the constantly updating e-commerce landscape.'
+            image={implementation}></ProjectColumn>
+            <ProjectColumn heading='Impact' text='I received positive feedback from commercetools, who appreciated the "demystifying" of technical language and intuitive user flow. Website visitors found the tool useful as a way to "stay in the know" of e-commerce trends and 
+            some companies have reached out to be included in the website.'></ProjectColumn>
+            <ProjectColumn heading='Reflection' text='If I was to revise or continue this project, I would:' 
+            unorderedList={['Connect index.js to a database (e.g., Firebase) rather than editing data.js by hand, as it led to many bugs due to typos.', 'Test designs earlier with paper prototyping as I spent longer than intended on drafting the v1 prototype.', 
+            'Structure implementation so that I can be flexible to new changes.']}></ProjectColumn>
         </>
     );
 }

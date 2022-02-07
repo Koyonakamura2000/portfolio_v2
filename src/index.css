@@ -5,6 +5,11 @@ html {
   font-family: 'Roboto', Helvetica;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* global classes - used in multiple components */
 .column-with-image {
   display: flex;

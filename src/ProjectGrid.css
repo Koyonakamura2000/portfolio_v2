@@ -1,17 +1,23 @@
 .project-grid {
-    margin: 5rem auto 0 auto;
-    width: 90%;
+    background-color: #EDEDED;
+    padding: 2rem 5%;
+    margin: 3rem 0 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: .5rem 2rem;
+    gap: .5rem .5rem;
 }
 
 @media only screen and (min-width: 1024px) {
     .project-grid {
-        width: 50%;
+        padding: 2rem 25%;
     }
 }
 
+.project-grid div {
+    background-color: white;
+    padding: .5rem;
+    border-radius: .5rem;
+}
 .project-grid img {
     width: 100%;
 }
