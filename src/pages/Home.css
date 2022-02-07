@@ -3,10 +3,6 @@ main {
     margin: auto;
 }
 
-.image-with-caption {
-    width: 80%;
-}
-
 @media only screen and (min-width: 1024px) {
     main {
         width: 70%;

@@ -1,10 +1,16 @@
 footer {
-    width: 70%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    footer {
+        width: 70%;
+    }
 }
 
 footer img {
