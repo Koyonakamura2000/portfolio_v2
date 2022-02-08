@@ -20,7 +20,7 @@
 }
 
 .project-column-description {
-    margin: 0 0 1rem 0;
+    margin: 0 0 2rem 0;
 }
 
 .project-column ul {
@@ -28,4 +28,19 @@
     display: flex;
     flex-direction: column;
     gap: .5rem;
+}
+
+.labeled-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.labeled-list p {
+    margin: .5rem 0 0 0;
+}
+
+.labeled-list-heading {
+    margin: 0;
+    font-size: 1rem;
 }

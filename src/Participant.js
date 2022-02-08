@@ -2,7 +2,6 @@ import uuid from 'react-uuid';
 import './Participant.css';
 
 function Participant(props) {
-    console.log(props);
     return (
         <div className='participant'>
             <div className='participant-left-column'>
