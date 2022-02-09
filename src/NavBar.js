@@ -9,7 +9,7 @@ function NavBar() {
                 <Link className='logo' to='/'>Koyo Nakamura</Link>
                 <div className='nav-links'>
                     <NavLink exact='true' className={(state) => state.isActive ? 'nav-selected' : 'nav-unselected'} to='/'>My Work</NavLink>
-                    <NavLink className={(state) => state.isActive ? 'nav-selected' : 'nav-unselected'} to='/about'>About</NavLink>
+                    {/* <NavLink className={(state) => state.isActive ? 'nav-selected' : 'nav-unselected'} to='/about'>About</NavLink> */}
                     <a className='nav-resume-link' href={resumePdf} rel='noreferrer' target='_blank'>Resume</a>
                 </div>
             </nav>

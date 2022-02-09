@@ -21,6 +21,12 @@ body {
   max-width: 100%;
 }
 
+/* added because safari bug makes image stretch */
+img {
+  width: 100%;
+  height: auto;
+}
+
 .image-caption {
   margin-top: .5rem;
   font-style: italic;
