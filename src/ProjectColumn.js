@@ -6,11 +6,11 @@ function ProjectColumn(props) {
         <section className='project-column'>
             <h3>{props.heading}</h3>
             {props.text && <p className='project-column-description'>{props.text}</p>}
-            {props.image && <img src={props.image} alt={props.heading} />}
-            {props.image && <p className='image-caption'>{props.caption}</p>}
             {props.unorderedList && <BulletList list={props.unorderedList}></BulletList>}
             {props.labeledList && <LabeledList list={props.labeledList}></LabeledList>}
-            {props.link && <a className='button' href={props.link} target='_blank' rel='noreferrer'>Visit website</a>}
+            {props.image && <img src={props.image} alt={props.heading} />}
+            {props.caption && <p className='project-image-caption'>{props.caption}</p>}
+            {props.link && <a className='button' href={props.link} target='_blank' rel='noreferrer'>View</a>}
         </section>
     );
 }

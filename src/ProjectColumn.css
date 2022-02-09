@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 90%;
     margin: 5rem auto 0 auto;
+    gap: 2rem;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -16,11 +17,18 @@
     color: #7C7C7C;
     font-size: .8rem;
     font-weight: normal;
-    margin: 0 0 1rem 0;
+    margin: 0;
 }
 
 .project-column-description {
-    margin: 0 0 2rem 0;
+    margin: 0;
+}
+
+.project-image-caption {
+    margin: -1.5rem 0 0 0;
+    font-style: italic;
+    font-size: .9rem;
+    text-align: center;
 }
 
 .project-column ul {
@@ -33,7 +41,7 @@
 .labeled-list {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .labeled-list p {
