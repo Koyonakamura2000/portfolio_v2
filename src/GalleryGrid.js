@@ -2,7 +2,7 @@ import './GalleryGrid.css';
 
 function GalleryGrid(props) {
     return (
-        <div>
+        <div class='gallery-grid'>
             {props.children}
         </div>
     );

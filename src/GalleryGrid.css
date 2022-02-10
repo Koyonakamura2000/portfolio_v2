@@ -1,0 +1,14 @@
+.gallery-grid {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .1rem .3rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .gallery-grid {
+        width: 70%;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 import NavBar from './NavBar.js';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
@@ -13,7 +13,7 @@ import WatchfulWalking from './pages/WatchfulWalking.js';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<NavBar />}>
             <Route index element={<Home />}></Route>
@@ -26,7 +26,7 @@ function App() {
             </Route>
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer lastEdit='February 3rd, 2022'></Footer>
     </>
   );

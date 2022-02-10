@@ -1,0 +1,29 @@
+.gallery-photo {
+    position: relative;
+}
+
+.gallery-photo-text {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    color: white;
+}
+
+.gallery-photo-text h3 {
+    margin: 0 0 .3rem 0;
+    font-size: .8rem;
+    font-weight: lighter;
+}
+
+.gallery-photo-text h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+}
+
+.gallery-photo p {
+    margin: 0;
+    font-size: .8rem;
+}
