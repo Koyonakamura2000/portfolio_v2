@@ -1,0 +1,21 @@
+.other-work {
+    margin: 3rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .other-work {
+        width: 70%;
+    }
+}
+
+.other-work hr {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    height: .1rem;
+    background-color: #CDCDCD;
+}
