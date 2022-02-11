@@ -41,10 +41,6 @@ function Home() {
         description='Using gamification to inspire younger adults to interact with and appreciate their local environment.' 
         tools={['Figma', 'Miro']} roles={['User Research', 'UX Design', 'UI Design']} path='/projects/symbiosis'></Card>
         <hr />
-        {/* <Card images={[watchfulMockup, watchfulMockupWide]} mobile={isMobile} name='Watchful Walking' 
-        description='Helping University of Washington students living in off-campus housing navigate to and from campus safely.' 
-        tools={['Figma']} roles={['User Research', 'UX Design']} path='/projects/watchfulwalking'></Card>
-        <hr /> */}
       </div>
     </main>
   );

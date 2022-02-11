@@ -7,7 +7,6 @@ import Footer from './Footer.js';
 import ModernCommerceLandscape from './pages/ModernCommerceLandscape.js';
 import NightReflection from './pages/NightReflection.js';
 import Symbiosis from './pages/Symbiosis.js';
-import WatchfulWalking from './pages/WatchfulWalking.js';
 
 
 function App() {
@@ -22,12 +21,11 @@ function App() {
               <Route path='moderncommercelandscape' element={<ModernCommerceLandscape />}></Route>
               <Route path='nightreflection' element={<NightReflection />}></Route>
               <Route path='symbiosis' element={<Symbiosis />}></Route>
-              <Route path='watchfulwalking' element={<WatchfulWalking />}></Route>
             </Route>
           </Route>
         </Routes>
       </HashRouter>
-      <Footer lastEdit='February 3rd, 2022'></Footer>
+      <Footer lastEdit='February 10th, 2022'></Footer>
     </>
   );
 }
