@@ -53,7 +53,7 @@ function Home() {
         <hr />
         <MiniCard name='Clash Royale Deck Suggestions API' description='In order to avoid hitting the rate limit in high traffic, I set up a Flask API connected to Firebase to periodically update the data, rather than calling the Clash Royale API every time.' image={crApi} tools={['Python Flask', 'Google Firebase']} roles={['Web Development']}></MiniCard>
         <hr />
-        <MiniCard name='Twiiter Manga Translator' description='Allows English-Japanese translators to more easily find and translate manga tweets by Japanese artists and reply with translations.' tools={['Python Flask', 'Twitter API']} roles={['Web Development']}>
+        <MiniCard name='Twitter Manga Translator' description='Allows English-Japanese translators to more easily find and translate manga tweets by Japanese artists and reply with translations.' tools={['Python Flask', 'Twitter API']} roles={['Web Development']}>
           {isMobile ? <iframe width={(window.innerWidth*0.8)} height={window.innerWidth * .5} src="https://www.youtube.com/embed/YZHg3Ll11Mk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> : <iframe width='560' height='315' src="https://www.youtube.com/embed/YZHg3Ll11Mk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>}
         </MiniCard>
         <hr />
