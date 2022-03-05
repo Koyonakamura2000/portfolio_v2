@@ -25,7 +25,7 @@ function App() {
           </Route>
         </Routes>
       </HashRouter>
-      <Footer lastEdit='February 10th, 2022'></Footer>
+      <Footer lastEdit='March 4th, 2022'></Footer>
     </>
   );
 }

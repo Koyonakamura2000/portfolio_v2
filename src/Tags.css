@@ -21,7 +21,8 @@
 
 .tag {
     background-color: #D1ECFF;
-    font-weight: lighter;
+    font-weight: normal;
+    color: #7c7c7c;
     font-size: .8rem;
     padding: .1rem .5rem;
     border-radius: .2rem;
