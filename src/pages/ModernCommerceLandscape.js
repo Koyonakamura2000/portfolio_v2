@@ -29,12 +29,12 @@ function ModernCommerceLandscape() {
             <ProjectColumn heading='Competitive Analysis' text='I first researched other websites that provide a comparison of services. I found that most websites display the information in one table, which was sometimes overbearing.'
             image={awsTable} caption='comparecloud.in provides a dashboard comparing different cloud services, but the amount of information and technical jargon can be overbearing.'></ProjectColumn>
             <ProjectColumn heading='Initial Prototype' text='Based on analyzing existing platforms and initial discussions with my manager, I designed a prototype that aims to reduce information overload and technical jargon.'
-            image={v1Prototype} caption='Instead of displaying all of the services at once, the user is first prompted to select from a list of general categories.'></ProjectColumn>
+            image={v1Prototype} caption='Instead of displaying all of the services at once, the user is first prompted to select from a list of general categories.' link='https://www.figma.com/file/G8m1HFkXVcqssubHqGAZcO/commercetools?node-id=10%3A0'></ProjectColumn>
             <ProjectColumn heading='Usability Testing' text='Participants found that the category names were too confusing (jargon) and some UI elements were unintuitive, preventing them from being able to complete their task.'
             image={v1Ui} caption='Despite the bolded text and darker border, participants had a difficult time distinguishing between selected and unselected tabs.'></ProjectColumn>
             <ProjectColumn heading='Second Prototype' text='I implemented the following changes to the prototype based on the feedback:' 
             unorderedList={['Beginner-friendly language in prompts and buttons', 'Distinguishing selected and unselected UI with higher contrast and hover feedback', 
-            'Keeping calls to action consistent across the whole user experience']}></ProjectColumn>
+            'Keeping calls to action consistent across the whole user experience']} link='https://www.figma.com/file/G8m1HFkXVcqssubHqGAZcO/commercetools?node-id=52%3A237'></ProjectColumn>
             <ProjectGrid items={[{'image': gridLogo, 'caption': 'Website logo emphasizes the horizontal nature of headless e-commerce.'}, 
             {'image': gridPrompts, 'caption': 'Dropdown prompts use non-technical language to minimize specialized vocabulary and accommodate all users.'}, 
             {'image': gridCategory, 'caption': 'For technical users (e.g., developers), the catalogue view shows all of the explorable options.'},
