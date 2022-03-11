@@ -20,7 +20,7 @@ function Symbiosis() {
             description='I partnered with ForestHealthWatch and designed Symbiosis, an app that encourages younger adults to spend time outdoors and form connections with nature.'
             tools={['Miro', 'Figma']} roles={['User Research', 'UX Design', 'UI Design']}></ProjectIntro>
             <ProjectColumn heading='Context' text="In order to raise awareness for ecological issues such as western redcedar dieback, ForestHealthWatch came to us looking for inspiration on how to motivate people to care more about nature." image={forestHealth} caption='ForestHealthWatch leads many sustainability projects focusing on the Pacific Northwest.'></ProjectColumn>
-            <ResearchQuestion text='How can we inspire more people to connect with nature and be invested in the health of their local ecosystem?'></ResearchQuestion>
+            <ResearchQuestion color='#4c7565' text='How can we inspire more people to connect with nature and be invested in the health of their local ecosystem?'></ResearchQuestion>
             <ProjectColumn heading='User Research' text='We conducted semi-structured interviews to explore how people currently interact with nature and what motivates them to go outdoors. *Names and pictures are anonymized'></ProjectColumn>
             <Participants>
                 <Participant image={derekPhoto} name='Derek' description='Derek loves to go outdoors when it is with his friends or family. He finds the outdoors refreshing and uses the opportunity to disconnect himself from technology.' quotes={["I love going on hikes or walking with friends."]}></Participant>

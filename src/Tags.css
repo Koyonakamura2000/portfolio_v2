@@ -2,12 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: baseline;
-    margin-top: .5rem;
+    margin-top: 1rem;
+    grid-column-gap: .5rem;
 }
 
 .tag-name {
     text-transform: uppercase;
-    color: #7C7C7C;
     margin: 0;
     font-size: .8rem;
 }
@@ -20,11 +20,7 @@
 
 
 .tag {
-    background-color: #D1ECFF;
     font-weight: normal;
-    color: #7c7c7c;
-    font-size: .8rem;
-    padding: .1rem .5rem;
-    border-radius: .2rem;
+    border-radius: .4rem;
     margin: 0;
 }

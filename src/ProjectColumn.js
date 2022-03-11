@@ -10,7 +10,7 @@ function ProjectColumn(props) {
             {props.labeledList && <LabeledList list={props.labeledList}></LabeledList>}
             {props.image && <img src={props.image} alt={props.heading} />}
             {props.caption && <p className='project-image-caption'>{props.caption}</p>}
-            {props.link && <a className='button' href={props.link} target='_blank' rel='noreferrer'>View</a>}
+            {props.link && <a className='button' href={props.link[0]} target='_blank' rel='noreferrer'>{props.link[1]}</a>}
         </section>
     );
 }

@@ -25,7 +25,7 @@ function ModernCommerceLandscape() {
             <ProjectColumn heading='Context' 
             text='Headless e-commerce allows for flexibility and speed of delivery by ‘mix-and-matching’ a suite of services that focus on specific tasks. However, selecting the right services can be a daunting task due to the technical familiarity required and there being so many options to choose from.'
             image={mindMap} caption='Even this small sector of e-commerce has multiple vendors that specialize in a single branch.'></ProjectColumn>
-            <ResearchQuestion text='How can I design a website that helps technical and non-technical people explore the modern e-commerce landscape?'></ResearchQuestion>
+            <ResearchQuestion color='#3f788b' text='How can I design a website that helps technical and non-technical people explore the modern e-commerce landscape?'></ResearchQuestion>
             <ProjectColumn heading='Competitive Analysis' text='I first researched other websites that provide a comparison of services. I found that most websites display the information in one table, which was sometimes overbearing.'
             image={awsTable} caption='comparecloud.in provides a dashboard comparing different cloud services, but the amount of information and technical jargon can be overbearing.'></ProjectColumn>
             <ProjectColumn heading='Initial Prototype' text='Based on analyzing existing platforms and initial discussions with my manager, I designed a prototype that aims to reduce information overload and technical jargon.'

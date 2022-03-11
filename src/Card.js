@@ -15,7 +15,7 @@ function Card(props) {
                 <p>{props.description}</p>
                 <div className='info-align-bottom'>
                     <Tags type='Tools' tags={props.tools}></Tags>
-                    <Tags type='Role(s)' tags={props.roles}></Tags>
+                    <Tags type='My role(s)' tags={props.roles}></Tags>
                     <Link className='button' to={props.path}>View</Link>
                 </div>
             </div>

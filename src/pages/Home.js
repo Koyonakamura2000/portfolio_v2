@@ -7,6 +7,8 @@ import reflectionMockup from '../assets/images/home/reflection_mockup.png';
 import reflectionMockupWide from '../assets/images/home/reflection_mockup_wide.jpg';
 import symbiosisMockup from '../assets/images/home/symbiosis_mockup.png';
 import symbiosisMockupWide from '../assets/images/home/symbiosis_mockup_wide.jpg';
+import watchfulMockup from '../assets/images/home/318_mockup.jpg';
+import watchfulMockupWide from '../assets/images/home/318_mockup_wide.jpg';
 import OtherWork from '../OtherWork.js';
 import MiniCard from '../MiniCard.js';
 import crApi from '../assets/images/home/other-work/cr_api_flask.jpg';
@@ -36,13 +38,17 @@ function Home() {
         description='A website that helps businesses navigate the modern e-commerce landscape and find services that suit their business needs.'
         tools={['Figma', 'HTML/CSS', 'JavaScript']} roles={['Product Design', 'Web Development']} path='/projects/moderncommercelandscape'></Card>
         <hr />
+        <Card images={[symbiosisMockup, symbiosisMockupWide]} mobile={isMobile} name='Symbiosis' 
+        description='Using gamification to inspire younger adults to interact with and appreciate their local environment.' 
+        tools={['Figma', 'Miro']} roles={['User Research', 'UX Design', 'UI Design']} path='/projects/symbiosis'></Card>
+        <hr />
         <Card images={[reflectionMockup, reflectionMockupWide]} mobile={isMobile} name='Designing for Night-Time Reflection' 
         description='Published research paper on how to support people reflecting at night.' 
         tools={['Miro', 'Google Forms']} roles={['User Research']} path='/projects/nightreflection'></Card>
         <hr />
-        <Card images={[symbiosisMockup, symbiosisMockupWide]} mobile={isMobile} name='Symbiosis' 
-        description='Using gamification to inspire younger adults to interact with and appreciate their local environment.' 
-        tools={['Figma', 'Miro']} roles={['User Research', 'UX Design', 'UI Design']} path='/projects/symbiosis'></Card>
+        <Card images={[watchfulMockup, watchfulMockupWide]} mobile={isMobile} name='Watchful Walking' 
+        description='Designing an app that helps University of Washington students safely commute to and from campus.' 
+        tools={['Figma']} roles={['User Research, UX Design']} path='/projects/watchfulwalking'></Card>
         <hr />
       </div>
       <p className='other-work-intro'>Other things I've worked on...</p>
@@ -57,7 +63,7 @@ function Home() {
           {isMobile ? <iframe width={(window.innerWidth*0.8)} height={window.innerWidth * .5} src="https://www.youtube.com/embed/YZHg3Ll11Mk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> : <iframe width='560' height='315' src="https://www.youtube.com/embed/YZHg3Ll11Mk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>}
         </MiniCard>
         <hr />
-        <MiniCard name='C Evans Website Redesign' description='Redesigned the C Evans Consulting website, incorporating feedback from focus group sessions into the design.' image={cevans} tools={['Python Flask', 'Google Firebase']} roles={['Web Development']} fullImage={cevans_full}></MiniCard>
+        <MiniCard name='C Evans Website Redesign' description='Redesigned the C Evans Consulting website, incorporating feedback from focus group sessions into the design.' image={cevans} tools={['Python Flask', 'Google Firebase']} roles={['UI Design']} fullImage={cevans_full}></MiniCard>
       </OtherWork>
     </main>
   );
