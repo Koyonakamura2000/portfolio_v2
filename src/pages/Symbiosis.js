@@ -16,7 +16,7 @@ function Symbiosis() {
     window.scrollTo(0, 0);
     return (
         <>
-            <ProjectIntro image={symbiosisWide} name='Symbiosis' 
+            <ProjectIntro image={symbiosisWide} duration='January 8th, 2021 - March 12th, 2021' name='Symbiosis' 
             description='I partnered with ForestHealthWatch and designed Symbiosis, an app that encourages younger adults to spend time outdoors and form connections with nature.'
             tools={['Miro', 'Figma']} roles={['User Research', 'UX Design', 'UI Design']}></ProjectIntro>
             <ProjectColumn heading='Context' text="In order to raise awareness for ecological issues such as western redcedar dieback, ForestHealthWatch came to us looking for inspiration on how to motivate people to care more about nature." image={forestHealth} caption='ForestHealthWatch leads many sustainability projects focusing on the Pacific Northwest.'></ProjectColumn>

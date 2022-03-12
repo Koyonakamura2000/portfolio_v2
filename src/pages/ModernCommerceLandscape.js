@@ -19,7 +19,7 @@ function ModernCommerceLandscape() {
     window.scrollTo(0, 0);
     return (
         <>
-            <ProjectIntro image={mclMockupWide} name='Modern Commerce Landscape'
+            <ProjectIntro image={mclMockupWide} duration='June 7th, 2021 - August 13th, 2021' name='Modern Commerce Landscape'
             description='moderncommercelandscape.com allows technical and non-technical users to explore the modern e-commerce landscape and potentially make business decisions.'
             tools={['Figma', 'HTML/CSS', 'JavaScript']} roles={['Product Design', 'Web Development']} link='https://www.moderncommercelandscape.com'></ProjectIntro>
             <ProjectColumn heading='Context' 

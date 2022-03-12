@@ -7,6 +7,7 @@ function ProjectIntro(props) {
         <>
             <img className='project-intro-image' src={props.image} alt={props.name}/>
             <div className='project-intro'>
+                {props.duration && <h3 className='duration'>{props.duration}</h3>}
                 <h1>{props.name}</h1>
                 <p>{props.description}</p>
                 <Tags type='Tools' tags={props.tools}></Tags>

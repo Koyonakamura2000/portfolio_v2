@@ -18,7 +18,7 @@ function NightReflection() {
     window.scrollTo(0, 0);
     return (
         <>
-            <ProjectIntro image={reflectionWide} name='Designing for Night-Time Reflection' 
+            <ProjectIntro image={reflectionWide} duration='March 2021 - October 2021' name='Designing for Night-Time Reflection' 
             description='I researched and published "Designing for Night-Time Reflection," in which I conducted and analyzed interview and survey data to develop design techniques when supporting people reflecting at night.'
             tools={['Miro', 'Google Forms']} roles={['User Research']}></ProjectIntro>
             <ProjectColumn heading='Context' text="Engaging in reflection can raise self-awareness and allow oneself to navigate difficult situations. While research has been done on broad concepts surrounding how to design for reflection, little research has been done that focuses on principles for applying these concepts in specific contexts (e.g., night-time)."></ProjectColumn>
