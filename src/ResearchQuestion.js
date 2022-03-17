@@ -3,7 +3,7 @@ import './ResearchQuestion.css';
 // change quotation mark colors with props.color
 function ResearchQuestion(props) {
     return (
-        <section className='research-question'>
+        <section className='research-question' id={props.id}>
             <svg className='quote-top-left' width="5rem" height="5rem" viewBox="0 0 171 174" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fillRule="evenodd" clipRule="evenodd" d="M43.4948 0H1.92345e-06V1.14441e-05H0L1.92345e-06 44.2579V174H43.4948V44.2578L171 44.2578V3.92624e-06L43.4948 0Z" fill={props.color}/>
             </svg>

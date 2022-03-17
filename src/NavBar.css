@@ -1,19 +1,26 @@
 .nav-bar {
-    width: 90%;
-    margin: .5rem auto 0 auto;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 5%;
+    height: 4rem;
+    background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spacer {
+    height: 4rem;
 }
 
 @media only screen and (min-width: 1024px) {
     .nav-bar {
-        width: 70%;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        padding: .5rem var(--wide-screen-margin) 1rem;
     }
 }
 

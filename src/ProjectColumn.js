@@ -3,7 +3,7 @@ import uuid from 'react-uuid';
 
 function ProjectColumn(props) {
     return (
-        <section className='project-column'>
+        <section className='project-column' id={props.id}>
             <h3>{props.heading}</h3>
             {props.text && <p className='project-column-description'>{props.text}</p>}
             {props.unorderedList && <BulletList list={props.unorderedList}></BulletList>}

@@ -3,6 +3,9 @@
 html {
   font-size: 12px;
   font-family: 'Roboto', Helvetica;
+  scroll-behavior: smooth;
+  --wide-screen-margin: 10%;
+  --wide-screen-column-width: 50%;
 }
 
 body {

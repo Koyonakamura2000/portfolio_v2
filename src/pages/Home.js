@@ -16,6 +16,7 @@ import cevans from '../assets/images/home/other-work/cevans.jpg';
 import cevans_full from '../assets/images/home/other-work/cevans_full.jpg';
 
 function Home() {
+  window.scrollTo(0, 0);
   let isMobile = true;
   if(window.innerWidth >= 1024) {
     isMobile = false;

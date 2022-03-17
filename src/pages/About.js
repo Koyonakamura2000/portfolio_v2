@@ -13,6 +13,7 @@ import AboutIntro from '../AboutIntro.js';
 
 // 1 = top left, 9 = bottom right in 3x3 grid
 function About() {
+  window.scrollTo(0, 0);
     return (
       <>
         <AboutIntro></AboutIntro>

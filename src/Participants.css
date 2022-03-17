@@ -9,6 +9,6 @@
 
 @media only screen and (min-width: 1024px) {
     .participants-column {
-        padding: 2rem 25%;
+        padding: 2rem var(--wide-screen-margin) 2rem calc(var(--wide-screen-column-width) - var(--wide-screen-margin));
     }
 }

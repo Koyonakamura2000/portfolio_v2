@@ -1,5 +1,6 @@
 .research-question {
-    margin: 5rem auto 0 auto;
+    margin: -3rem auto 0 auto;
+    padding-top: 8rem;
     display: flex;
     width: 80%;
     justify-content: space-between;
@@ -23,6 +24,7 @@
 
 @media only screen and (min-width: 1024px) {
     .research-question {
-        width: 50%;
+        width: var(--wide-screen-column-width);
+        margin: -3rem var(--wide-screen-margin) 0 auto;
     }
 }

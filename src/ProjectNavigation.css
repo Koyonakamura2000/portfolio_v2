@@ -1,0 +1,31 @@
+.project-links {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .project-links {
+        display: flex;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 2rem;
+        box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+        left: 10%;
+        flex-direction: column;
+        bottom: 10vh;
+        gap: 1rem;
+    }
+
+    .project-links a {
+        text-decoration: none;
+        color: #838383;
+        transition: transform .3s, color .3s;
+    }
+
+    .project-links a:hover {
+        transform: translateY(-.2rem);
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+}
