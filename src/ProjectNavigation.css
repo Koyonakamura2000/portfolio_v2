@@ -4,18 +4,18 @@
 
 @media only screen and (min-width: 1024px) {
     .project-links {
+        height: 0;
         display: flex;
-        position: fixed;
-        background-color: rgba(255, 255, 255, 0.9);
-        padding: 2rem;
-        box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
-        left: 10%;
+        position: sticky;
+        top: 30vh;
+        margin-left: 10%;
         flex-direction: column;
-        bottom: 10vh;
         gap: 1rem;
+        width: fit-content;
     }
 
     .project-links a {
+        width: max-content;
         text-decoration: none;
         color: #838383;
         transition: transform .3s, color .3s;

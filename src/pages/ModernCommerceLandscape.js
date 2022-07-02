@@ -20,10 +20,11 @@ function ModernCommerceLandscape() {
     window.scrollTo(0, 0);
     return (
         <>
-            <ProjectNavigation links={{'Context': 'context', 'Research Question': 'researchQuestion', 'Competitive Analysis': 'competitiveAnalysis', 'Initial Prototype': 'initialPrototype', 'Usability Testing': 'usabilityTesting', 'Second Prototype': 'secondPrototype', 'Implementation': 'implementation', 'Impact': 'impact', 'Reflection': 'reflection'}}></ProjectNavigation>
             <ProjectIntro image={mclMockupVeryWide} duration='June 7th, 2021 - August 13th, 2021' name='Modern Commerce Landscape'
             description='moderncommercelandscape.com allows technical and non-technical users to explore the modern e-commerce landscape and potentially make business decisions.'
-            tools={['Figma', 'HTML/CSS', 'JavaScript']} roles={['Product Design', 'Web Development']} link='https://www.moderncommercelandscape.com'></ProjectIntro>
+            tools={['Figma', 'HTML/CSS', 'JavaScript']} roles={['Product Design', 'Web Development']} link='https://www.moderncommercelandscape.com'>
+                <ProjectNavigation links={{'Context': 'context', 'Research Question': 'researchQuestion', 'Competitive Analysis': 'competitiveAnalysis', 'Initial Prototype': 'initialPrototype', 'Usability Testing': 'usabilityTesting', 'Second Prototype': 'secondPrototype', 'Implementation': 'implementation', 'Impact': 'impact', 'Reflection': 'reflection'}}></ProjectNavigation>
+            </ProjectIntro>
             <ProjectColumn id='context' heading='Context' 
             text='Headless e-commerce allows for flexibility and speed of delivery by ‘mix-and-matching’ a suite of services that focus on specific tasks. However, selecting the right services can be a daunting task due to the technical familiarity required and there being so many options to choose from.'
             image={mindMap} caption='Even this small sector of e-commerce has multiple vendors that specialize in a single branch.'></ProjectColumn>

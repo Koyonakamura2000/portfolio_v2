@@ -1,4 +1,4 @@
-.nav-bar {
+.nav-bar, .nav-bar-narrow {
     z-index: 1;
     position: fixed;
     width: 100%;
@@ -21,6 +21,10 @@
 @media only screen and (min-width: 1024px) {
     .nav-bar {
         padding: .5rem var(--wide-screen-margin) 1rem;
+    }
+
+    .nav-bar-narrow {
+        padding: .5rem 15% 1rem;
     }
 }
 

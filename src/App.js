@@ -15,10 +15,12 @@ function App() {
     <>
       <HashRouter>
         <Routes>
-          <Route path='/' element={<NavBar />}>
-            <Route index element={<Home />}></Route>
-            <Route path='about' element={<About />}></Route>
-            <Route path='projects/'>
+          <Route path='/'>
+            <Route element={<NavBar layout='narrow' />}>
+              <Route index element={<Home />}></Route>
+              <Route path='about' element={<About />}></Route>
+            </Route>
+            <Route path='projects/' element={<NavBar />}>
               <Route path='moderncommercelandscape' element={<ModernCommerceLandscape />}></Route>
               <Route path='nightreflection' element={<NightReflection />}></Route>
               <Route path='symbiosis' element={<Symbiosis />}></Route>
@@ -27,7 +29,7 @@ function App() {
           </Route>
         </Routes>
       </HashRouter>
-      <Footer lastEdit='March 10th, 2022'></Footer>
+      <Footer lastEdit='April 10th, 2022'></Footer>
     </>
   );
 }

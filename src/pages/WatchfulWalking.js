@@ -27,10 +27,11 @@ function WatchfulWalking() {
     window.scrollTo(0, 0);
     return (
         <>
-            <ProjectNavigation links={{'Context': 'context', 'Research Question': 'researchQuestion', 'User Research': 'userResearch', 'User Modeling': 'userModeling', 'Design Requirements': 'designRequirements', 'Storyboards': 'storyboards', 'Evaluative test': 'evaluativeTest', 'Test Findings': 'testFindings', 'Wireframes': 'wireframes', 'High-Fidelity Prototype': 'hifi'}}></ProjectNavigation>
             <ProjectIntro image={watchfulMockupVeryWide} name='Watchful Walking'
             description='Watchful Walking is an app that helps University of Washington students safely commute to and from campus by making it easier for them to find other college students nearby.'
-            tools={['Figma']} duration='September 25th, 2019 - December 6th, 2019' roles={['User Research', 'UX Design']}></ProjectIntro>
+            tools={['Figma']} duration='September 25th, 2019 - December 6th, 2019' roles={['User Research', 'UX Design']}>
+                <ProjectNavigation links={{'Context': 'context', 'Research Question': 'researchQuestion', 'User Research': 'userResearch', 'User Modeling': 'userModeling', 'Design Requirements': 'designRequirements', 'Storyboards': 'storyboards', 'Evaluative test': 'evaluativeTest', 'Test Findings': 'testFindings', 'Wireframes': 'wireframes', 'High-Fidelity Prototype': 'hifi'}}></ProjectNavigation>
+            </ProjectIntro>
             <ProjectColumn id='context' heading='Context' 
             text='The area around University of Washington, and especially University Street ("the Ave") is known for its high crime rate.' image={seattleCrime} caption='On an average month, you could expect about 150 crime reportings in the University area. That means that on a typical day, there are 5 crime incidents.'></ProjectColumn>
             <ResearchQuestion id='researchQuestion' color='#6fa8dd' text='How can we help University of Washington students feel safer when navigating to and from campus?'></ResearchQuestion>

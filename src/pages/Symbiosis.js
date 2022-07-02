@@ -17,10 +17,11 @@ function Symbiosis() {
     window.scrollTo(0, 0);
     return (
         <>
-            <ProjectNavigation links={{'Context': 'context', 'Research Question': 'researchQuestion', 'User Research': 'userResearch', 'Affinity Mapping': 'affinityMapping', 'Prototype': 'prototype'}}></ProjectNavigation>
             <ProjectIntro image={symbiosisVeryWide} duration='January 8th, 2021 - March 12th, 2021' name='Symbiosis' 
             description='I partnered with ForestHealthWatch and designed Symbiosis, an app that encourages younger adults to spend time outdoors and form connections with nature.'
-            tools={['Miro', 'Figma']} roles={['User Research', 'UX Design', 'UI Design']}></ProjectIntro>
+            tools={['Miro', 'Figma']} roles={['User Research', 'UX Design', 'UI Design']}>
+                <ProjectNavigation links={{'Context': 'context', 'Research Question': 'researchQuestion', 'User Research': 'userResearch', 'Affinity Mapping': 'affinityMapping', 'Prototype': 'prototype'}}></ProjectNavigation>
+            </ProjectIntro>
             <ProjectColumn id='context' heading='Context' text="In order to raise awareness for ecological issues such as western redcedar dieback, ForestHealthWatch came to us looking for inspiration on how to motivate people to care more about nature." image={forestHealth} caption='ForestHealthWatch leads many sustainability projects focusing on the Pacific Northwest.'></ProjectColumn>
             <ResearchQuestion color='#4c7565' text='How can we inspire more people to connect with nature and be invested in the health of their local ecosystem?'></ResearchQuestion>
             <ProjectColumn id='userResearch' heading='User Research' text='We conducted semi-structured interviews to explore how people currently interact with nature and what motivates them to go outdoors. *Names and pictures are anonymized'></ProjectColumn>

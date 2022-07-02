@@ -6,6 +6,7 @@ function ProjectIntro(props) {
     return (
         <>
             <img className='project-intro-image' src={props.image} alt={props.name}/>
+            {props.children}
             <div className='project-intro'>
                 {props.duration && <h3 className='duration'>{props.duration}</h3>}
                 <h1>{props.name}</h1>
